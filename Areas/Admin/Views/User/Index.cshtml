@@ -1,0 +1,61 @@
+﻿
+
+@{
+    ViewData["title"] = "User List";
+    Paginate pager = new Paginate();
+    int pageNo = 0;
+    if (ViewBag.Pager != null)
+    {
+        pager = ViewBag.Pager;
+        pageNo = pager.CurrentPage;
+    }
+}
+
+
+
+<h3>List User</h3>
+<a class="btn btn-success mb-5" asp-controller="User" asp-action="Create">Thêm mới</a>
+
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+
+            <th class="text-center" scope="col">Mã người dùng</th>
+            <th class="text-center" scope="col">UserName</th>
+            <th class="text-center" scope="col">Email</th>
+            <th class="text-center" scope="col">PasswordHash</th>
+            <th class="text-center" scope="col">Phone</th>
+            <th class="text-center" scope="col">Role</th>
+            <th class="text-center" scope="col">Chức năng</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usersWithRoles in Model)
+        {
+            <tr class="text-center">
+                <td>@usersWithRoles.User.Id</td>
+                <td>@usersWithRoles.User.UserName</td>
+                <td>@usersWithRoles.User.Email</td>
+                <td>@usersWithRoles.User.PasswordHash</td>
+                <td>@usersWithRoles.User.PhoneNumber</td>
+                <td>@usersWithRoles.RoleName</td>
+
+
+                <td>
+                    <a class="btn btn-success" asp-controller="User" asp-action="Edit" asp-route-Id="@usersWithRoles.User.Id">Sửa</a>
+                    <a class="btn btn-danger"
+                       asp-controller="User"
+                       asp-action="Delete"
+                       asp-route-id="@usersWithRoles.User.Id"
+                       onclick="return confirm('Bạn có chắc chắn muốn xóa tài khoản này?');">Xóa</a>
+                </td>
+            </tr>
+        }
+
+
+    </tbody>
+</table>
+<partial name="_paging" model="@pager" />
+

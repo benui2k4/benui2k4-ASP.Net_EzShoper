@@ -1,0 +1,649 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ASP.Net_EzShoper.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ASP.Net_EzShoper.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\backend\\js\\site.js",
+      "PackagePath": "staticwebassets\\backend\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\css\\prettyPhoto.css",
+      "PackagePath": "staticwebassets\\css\\prettyPhoto.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\css\\price-range.css",
+      "PackagePath": "staticwebassets\\css\\price-range.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\404\\404.png",
+      "PackagePath": "staticwebassets\\images\\404\\404.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\blog\\blog-one.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-one.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\blog\\blog-three.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-three.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\blog\\blog-two.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-two.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\blog\\man-four.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\man-four.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\blog\\man-one.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\man-one.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\blog\\man-three.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\man-three.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\blog\\man-two.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\man-two.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\blog\\socials.png",
+      "PackagePath": "staticwebassets\\images\\blog\\socials.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\cart\\one.png",
+      "PackagePath": "staticwebassets\\images\\cart\\one.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\cart\\three.png",
+      "PackagePath": "staticwebassets\\images\\cart\\three.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\cart\\two.png",
+      "PackagePath": "staticwebassets\\images\\cart\\two.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\gallery1.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\bg_border.png",
+      "PackagePath": "staticwebassets\\images\\home\\bg_border.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\gallery1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\gallery1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\gallery2.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\gallery2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\gallery3.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\gallery3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\gallery4.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\gallery4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\girl1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\girl1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\girl2.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\girl2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\girl3.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\girl3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\iframe1.png",
+      "PackagePath": "staticwebassets\\images\\home\\iframe1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\iframe2.png",
+      "PackagePath": "staticwebassets\\images\\home\\iframe2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\iframe3.png",
+      "PackagePath": "staticwebassets\\images\\home\\iframe3.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\iframe4.png",
+      "PackagePath": "staticwebassets\\images\\home\\iframe4.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\logo.png",
+      "PackagePath": "staticwebassets\\images\\home\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\map.png",
+      "PackagePath": "staticwebassets\\images\\home\\map.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\new.png",
+      "PackagePath": "staticwebassets\\images\\home\\new.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\partner1.png",
+      "PackagePath": "staticwebassets\\images\\home\\partner1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\partner2.png",
+      "PackagePath": "staticwebassets\\images\\home\\partner2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\partner3.png",
+      "PackagePath": "staticwebassets\\images\\home\\partner3.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\partner4.png",
+      "PackagePath": "staticwebassets\\images\\home\\partner4.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\pricing.png",
+      "PackagePath": "staticwebassets\\images\\home\\pricing.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\product1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\product2.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\product3.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\product4.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\product5.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\product6.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\recommend1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\recommend1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\recommend2.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\recommend2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\recommend3.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\recommend3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\sale.png",
+      "PackagePath": "staticwebassets\\images\\home\\sale.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\searchicon.png",
+      "PackagePath": "staticwebassets\\images\\home\\searchicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\shipping.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\shipping.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\product-details\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\product-details\\new.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\new.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\product-details\\rating.png",
+      "PackagePath": "staticwebassets\\images\\product-details\\rating.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\product-details\\share.png",
+      "PackagePath": "staticwebassets\\images\\product-details\\share.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\product-details\\similar1.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\similar1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\product-details\\similar2.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\similar2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\product-details\\similar3.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\similar3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\shop\\advertisement.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\advertisement.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\shop\\product10.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\shop\\product11.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\shop\\product12.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\shop\\product7.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\shop\\product8.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\shop\\product9.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\js\\gmaps.js",
+      "PackagePath": "staticwebassets\\js\\gmaps.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\js\\html5shiv.js",
+      "PackagePath": "staticwebassets\\js\\html5shiv.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\js\\jquery.prettyPhoto.js",
+      "PackagePath": "staticwebassets\\js\\jquery.prettyPhoto.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\js\\jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\js\\price-range.js",
+      "PackagePath": "staticwebassets\\js\\price-range.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\00f989a6-eee7-4d66-b6cd-5c6b010f5176_girl1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\00f989a6-eee7-4d66-b6cd-5c6b010f5176_girl1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\03505342-d22f-464e-b6bb-18a90c929757_girl2.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\03505342-d22f-464e-b6bb-18a90c929757_girl2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\15d396b6-8d72-4456-b01a-f481cdd41ce9_iframe3.png",
+      "PackagePath": "staticwebassets\\media\\products\\15d396b6-8d72-4456-b01a-f481cdd41ce9_iframe3.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\188aabe0-30db-46d4-9bb0-9560f199f257_girl1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\188aabe0-30db-46d4-9bb0-9560f199f257_girl1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\1f6c85e5-4d63-44ef-9153-b7bd18a42b2c_iframe4.png",
+      "PackagePath": "staticwebassets\\media\\products\\1f6c85e5-4d63-44ef-9153-b7bd18a42b2c_iframe4.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\2c779a1a-8bfe-4775-a647-456e11741acc_girl1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\2c779a1a-8bfe-4775-a647-456e11741acc_girl1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\380a3f57-bb15-4375-a7fc-106151e85773_girl1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\380a3f57-bb15-4375-a7fc-106151e85773_girl1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\40cbb46f-b931-49f3-bef1-746aaf8807f2_girl1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\40cbb46f-b931-49f3-bef1-746aaf8807f2_girl1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\4145157e-c3c5-4707-8a40-59bc66bed63d_asus-aio-a3402wbak-i3-wpc048w-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\4145157e-c3c5-4707-8a40-59bc66bed63d_asus-aio-a3402wbak-i3-wpc048w-thumb-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\4c01db06-d2a1-4770-a685-ad08c44215e7_asus-s500se-i5-513500008w-thumb-1-600x600.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\4c01db06-d2a1-4770-a685-ad08c44215e7_asus-s500se-i5-513500008w-thumb-1-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\6d4a3569-f85d-459e-843c-b038f40883e5_hp-aio-proone-240-g10-i5-9h0b2pt-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\6d4a3569-f85d-459e-843c-b038f40883e5_hp-aio-proone-240-g10-i5-9h0b2pt-thumb-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\bcecde24-e91a-48c3-8dd1-10017fdf6102_asus-s500te-i5-13500-s500te-513500014w-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\bcecde24-e91a-48c3-8dd1-10017fdf6102_asus-s500te-i5-13500-s500te-513500014w-thumb-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\be92ed09-e2e4-43db-bb91-d66d9a317d7e_asus-s500te-i3-313100037w-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\be92ed09-e2e4-43db-bb91-d66d9a317d7e_asus-s500te-i3-313100037w-thumb-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\c8098ece-5361-4cc6-b959-728cda59c7b5_hp-tp014018d-i3-8x3r4pa-thumb-bac-1-1-600x600.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\c8098ece-5361-4cc6-b959-728cda59c7b5_hp-tp014018d-i3-8x3r4pa-thumb-bac-1-1-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\cf0d0611-7941-43a8-89ea-438a80d15325_iframe2.png",
+      "PackagePath": "staticwebassets\\media\\products\\cf0d0611-7941-43a8-89ea-438a80d15325_iframe2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\d00e655c-65d6-4e34-ba21-44c55c2697da_recommend2.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\d00e655c-65d6-4e34-ba21-44c55c2697da_recommend2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\d81faca6-6314-4274-a079-ad78d8da43aa_iframe4.png",
+      "PackagePath": "staticwebassets\\media\\products\\d81faca6-6314-4274-a079-ad78d8da43aa_iframe4.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\db51d010-c452-4807-8829-e322863636d1_shipping.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\db51d010-c452-4807-8829-e322863636d1_shipping.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\dd2cb458-ebb3-4ca4-b991-ff2e5842e1a8_asus-aio-a3402wbak-i3-wpc048w-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\dd2cb458-ebb3-4ca4-b991-ff2e5842e1a8_asus-aio-a3402wbak-i3-wpc048w-thumb-600x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\edbef879-8df4-4485-ae43-8bf1cccb7ea7_shipping.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\edbef879-8df4-4485-ae43-8bf1cccb7ea7_shipping.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\f3b66acf-c2f6-4ba6-803e-e1e4a753dd3c_iframe3.png",
+      "PackagePath": "staticwebassets\\media\\products\\f3b66acf-c2f6-4ba6-803e-e1e4a753dd3c_iframe3.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ASP.Net_EzShoper.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ASP.Net_EzShoper.props",
+      "PackagePath": "build\\ASP.Net_EzShoper.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ASP.Net_EzShoper.props",
+      "PackagePath": "buildMultiTargeting\\ASP.Net_EzShoper.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ASP.Net_EzShoper.props",
+      "PackagePath": "buildTransitive\\ASP.Net_EzShoper.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

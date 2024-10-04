@@ -1,0 +1,59 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model BrandModel
+
+@{
+    ViewData["title"] = "Create Brand";
+}
+
+
+<div class="container">
+    <h2>Thêm mới thương hiệu</h2>
+    <div class="row">
+        <div class="col-md-10">
+            <form asp-action="Create" asp-controller="Brand" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group">
+                    <label>Tên thương hiệu</label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label>Mô tả thương hiệu</label>
+                    <textarea asp-for="Description" class="form-control"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label>Trạng thái thương hiệu</label>
+                    <select asp-for="Status" class="form-control">
+                        <option value="1">Hiển thị</option>
+                        <option value="0">Ẩn đi</option>
+                    </select>
+                    <span asp-validation-for="Status" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <button class="btn btn-success">Thêm mới</button>
+
+                </div>
+
+
+            </form>
+
+            <a class="btn btn-danger" asp-controller="Brand" asp-action="Index">Back to List</a>
+        </div>
+    </div>
+
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+    }
+
+}

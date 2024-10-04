@@ -1,0 +1,70 @@
+﻿@model IEnumerable<OrderModel>
+@using System.Globalization
+@{
+    ViewData["title"] = "Order List";
+    Paginate pager = new Paginate();
+    int pageNo = 0;
+    if (ViewBag.Pager != null)
+    {
+        pager = ViewBag.Pager;
+        pageNo = pager.CurrentPage;
+    }
+}
+
+
+
+<h3>List Order</h3>
+
+
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+
+            <th class="text-center" scope="col">Mã đơn hàng</th>
+            <th class="text-center" scope="col">Người tạo</th>
+            <th class="text-center" scope="col">Ngày tạo đơn</th>
+            <th class="text-center" scope="col">Trạng thái đơn hàng</th>
+            <th class="text-center" scope="col">Chức năng</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="text-center">
+                <td>@item.OrderCode</td>
+                <td>@item.UserName</td>
+                <td>@item.CreatedDate</td>
+                <td>
+                    @if (@item.Status == 1)
+                    {
+                        <span class="text text-success">Đơn hàng mới</span>
+                    }
+                    else
+                    {
+
+                        <span class="text text-danger">Đơn hàng thành công</span>
+                    }
+                </td>
+
+
+
+
+                <td>
+                    <a class="btn btn-success" asp-controller="Order" asp-action="ViewOrder" asp-route-Id="@item.OrderCode">View Order</a>
+
+                    <a class="btn btn-danger"
+                       asp-controller="Order"
+                       asp-action="Delete"
+                       asp-route-id="@item.Id"
+                       onclick="return confirm('Bạn có chắc chắn muốn xóa đơn hàng này?');">Xóa</a>
+                </td>
+            </tr>
+        }
+
+
+    </tbody>
+</table>
+<partial name="_paging" model="@pager" />
+
