@@ -11,7 +11,7 @@ namespace ASP.Net_EzShoper.Models
 
         public string OrderCode { get; set; }
 
-        public long ProductId { get; set; }
+        public int ProductId { get; set; }
 
         public decimal Price { get; set; }
 

@@ -1,4 +1,5 @@
-﻿using ASP.Net_EzShoper.Models;
+﻿using ASP.Net_EzShoper.Areas.Admin.Repository;
+using ASP.Net_EzShoper.Models;
 using ASP.Net_EzShoper.Models.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -10,11 +11,13 @@ namespace ASP.Net_EzShoper.Controllers
     {
         private UserManager<AppUserModel> _userManager;
         private SignInManager<AppUserModel> _signInManager;
+        private readonly IEmailSender _emailSender;
 
-        public AccountController(SignInManager<AppUserModel> signInManager, UserManager<AppUserModel> userManager)
+        public AccountController(SignInManager<AppUserModel> signInManager, UserManager<AppUserModel> userManager, IEmailSender emailSender)
         {
             _signInManager = signInManager;
             _userManager = userManager;
+            _emailSender = emailSender;
         }
         public IActionResult Login(string returnUrl)
         {
@@ -28,9 +31,19 @@ namespace ASP.Net_EzShoper.Controllers
                 Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(LoginVM.Username, LoginVM.Password, false, false);
                 if (result.Succeeded)
                 {
+                    TempData["success"] = "Đăng nhập thành công !";
+
+                    var receiver = "phamnhusondolla@gmail.com";
+
+                    var subject = "Đăng nhập trên thiết bị thành công !";
+
+                    var message = "Đăng nhập thành công , trải nghiệm dịch vụ nhé !";
+
+                    await _emailSender.SendEmailAsync(receiver, subject, message);
+
                     return Redirect(LoginVM.ReturnUrl ?? "/");
                 }
-                ModelState.AddModelError("", "Invalid username and password!");
+                ModelState.AddModelError("", "Tài khoản hoặc mật khẩu không chính xác !");
             }
             return View(LoginVM);
         }

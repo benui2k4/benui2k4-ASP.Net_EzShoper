@@ -1,4 +1,5 @@
-﻿using ASP.Net_EzShoper.Models;
+﻿using ASP.Net_EzShoper.Areas.Admin.Repository;
+using ASP.Net_EzShoper.Models;
 using ASP.Net_EzShoper.Repository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,8 @@ builder.Services.AddDbContext<DataContext>(options =>
     options.UseSqlServer(builder.Configuration["ConnectionStrings:ConnectedDb"]);
 });
 
+// đăng kí services Send Email 
+builder.Services.AddTransient<IEmailSender, EmailSender>();
 
 
 // Add services to the container.

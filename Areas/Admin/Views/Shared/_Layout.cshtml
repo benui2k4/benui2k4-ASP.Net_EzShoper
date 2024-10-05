@@ -23,28 +23,11 @@
 
 <body>
     <header id="header">
-        <!--header-->
-        <div class="header_top">
-            <!--header_top-->
-            <div class="container">
-                <div class="row">
-                </div>
-            </div>
-        </div><!--/header_top-->
-
-        <div class="header-middle">
-            <!--header-middle-->
-            <div class="container">
-                <div class="row">
-                </div>
-            </div>
-        </div><!--/header-middle-->
-
         <div class="header-bottom">
             <!--header-bottom-->
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-9">
+                    <div class="col-sm-12">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                 <span class="sr-only">Toggle navigation</span>
@@ -55,35 +38,26 @@
                         </div>
                         <div class="mainmenu pull-left">
                             <ul class="nav navbar-nav collapse navbar-collapse">
-                                <li><a asp-controller="Product" asp-action="Index" >Trang chủ</a></li>
-                                <li><a asp-controller="Product" >Products</a></li>
+                                <li><a asp-controller="Product" asp-action="Index">Trang chủ</a></li>
+                                <li><a asp-controller="Product">Products</a></li>
                                 <li><a asp-controller="Category">Categories</a></li>
-                                <li><a asp-controller="Brand" >Brands</a></li>
-                                <li><a asp-controller="Order" >Orders</a></li>
-                                <li><a asp-controller="User" >Users</a></li>
-                                <li><a asp-controller="Role" >Roles</a></li>
-                                <li><a asp-controller="Login">Login</a></li>
+                                <li><a asp-controller="Brand">Brands</a></li>
+                                <li><a asp-controller="Order">Orders</a></li>
+                                <li><a asp-controller="User">Users</a></li>
+                                <li><a asp-controller="Role">Roles</a></li>
+                                @* <li><a asp-controller="Login">Login</a></li> *@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm-3">
-                        <div class="search_box pull-right">
-                            <input type="text" placeholder="Search" />
-                        </div>
+                    @* <div class="col-sm-3">
+                    <div class="search_box pull-right">
+                    <input type="text" placeholder="Search" />
                     </div>
+                    </div> *@
                 </div>
             </div>
-        </div><!--/header-bottom-->
-    </header><!--/header-->
-
-    <section id="slider">
-        <!--slider-->
-        <div class="container">
-            <div class="row">
-            </div>
         </div>
-        </div>
-    </section><!--/slider-->
+    </header>
 
     <section>
         <div class="container">
@@ -95,12 +69,7 @@
     </section>
 
     <footer id="footer">
-        <!--Footer-->
-
-
-
-
-    </footer><!--/Footer-->
+    </footer>
 
 
 

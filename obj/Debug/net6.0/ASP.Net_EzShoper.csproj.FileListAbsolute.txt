@@ -55,6 +55,7 @@ C:\Users\Admin\source\repos\ASP.Net_EzShoper\ASP.Net_EzShoper\obj\Debug\net6.0\A
 C:\Users\Admin\source\repos\ASP.Net_EzShoper\ASP.Net_EzShoper\obj\Debug\net6.0\ASP.Net_EzShoper.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\ASP.Net_EzShoper\ASP.Net_EzShoper\obj\Debug\net6.0\ASP.Net_EzShoper.RazorAssemblyInfo.cache
 C:\Users\Admin\source\repos\ASP.Net_EzShoper\ASP.Net_EzShoper\obj\Debug\net6.0\ASP.Net_EzShoper.RazorAssemblyInfo.cs
+C:\Users\Admin\source\repos\ASP.Net_EzShoper\ASP.Net_EzShoper\obj\Debug\net6.0\ASP.Net_EzShoper.sourcelink.json
 C:\Users\Admin\source\repos\ASP.Net_EzShoper\ASP.Net_EzShoper\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Admin\source\repos\ASP.Net_EzShoper\ASP.Net_EzShoper\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Admin\source\repos\ASP.Net_EzShoper\ASP.Net_EzShoper\obj\Debug\net6.0\staticwebassets\msbuild.ASP.Net_EzShoper.Microsoft.AspNetCore.StaticWebAssets.props
@@ -72,4 +73,3 @@ C:\Users\Admin\source\repos\ASP.Net_EzShoper\ASP.Net_EzShoper\obj\Debug\net6.0\r
 C:\Users\Admin\source\repos\ASP.Net_EzShoper\ASP.Net_EzShoper\obj\Debug\net6.0\ASP.Net_EzShoper.pdb
 C:\Users\Admin\source\repos\ASP.Net_EzShoper\ASP.Net_EzShoper\obj\Debug\net6.0\ASP.Net_EzShoper.genruntimeconfig.cache
 C:\Users\Admin\source\repos\ASP.Net_EzShoper\ASP.Net_EzShoper\obj\Debug\net6.0\ref\ASP.Net_EzShoper.dll
-C:\Users\Admin\source\repos\ASP.Net_EzShoper\ASP.Net_EzShoper\obj\Debug\net6.0\ASP.Net_EzShoper.sourcelink.json
