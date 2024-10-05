@@ -66,7 +66,8 @@ namespace ASP.Net_EzShoper.Controllers
                 HttpContext.Session.Remove("Cart");
 
                 // Gửi Email sau khi đặt hàng 
-                var receiver = "phamnhusondolla@gmail.com";
+
+                var receiver = userEmail;
 
                 var subject = "Đặt hàng thành công !";
 
