@@ -21,6 +21,7 @@ namespace ASP.Net_EzShoper.Areas.Admin.Controllers
 
         public async Task<IActionResult> Index(int pg = 1)
         {
+            //return View(await _dataContext.Brands.OrderByDescending(c => c.Id).ToListAsync());
             List<BrandModel> brands = _dataContext.Brands.OrderByDescending(b => b.Id).ToList();
 
             const int pageSize = 10; // Số lượng bản ghi mỗi trang
