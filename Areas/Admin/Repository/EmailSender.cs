@@ -9,17 +9,22 @@ namespace ASP.Net_EzShoper.Areas.Admin.Repository
         {
             var client = new SmtpClient("smtp.gmail.com", 587)
             {
-                EnableSsl = true, //bật bảo mật
+                EnableSsl = true,
                 UseDefaultCredentials = false,
                 Credentials = new NetworkCredential("sondz2k4g@gmail.com", "asjyfgjwcloyaref")
             };
 
-            return client.SendMailAsync(
-                new MailMessage(from: "sondz2k4g@gmail.com",
-                                to: email,
-                                subject,
-                                message
-                                ));
+            var mailMessage = new MailMessage
+            {
+                From = new MailAddress("sondz2k4g@gmail.com"),
+                Subject = subject,
+                Body = message,
+                IsBodyHtml = true  // Thiết lập để nội dung được gửi dưới dạng HTML
+            };
+
+            mailMessage.To.Add(email);
+
+            return client.SendMailAsync(mailMessage);
         }
     }
 }
