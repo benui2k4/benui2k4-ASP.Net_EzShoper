@@ -83,7 +83,7 @@ namespace ASP.Net_EzShoper.Controllers
                         messageBuilder.AppendLine("<tr>");
                         messageBuilder.AppendLine($"<td><img src='{product.Image}' alt='{product.Name}' style='width:100px; height:auto;'/></td>");
 
-                        // Kiểm tra Category có null không
+                        
                         var categoryName = product.Category != null ? product.Category.Name : "N/A";
                         messageBuilder.AppendLine($"<td>{categoryName}</td>");
 
