@@ -57,17 +57,22 @@
                         }
                     else
                     {
-                        <tr><td colspan="5"><h4>Your Cart Empty!</h4></td></tr>
+                        <tr><td colspan="5" class="text text-danger"><h4>Your Cart Empty!</h4></td></tr>
 
                     }
                     <tr>
                         <td colspan="5">
                             <b> Tổng tiền:</b><b class="cart_total_price">$@Model.GrandTotal.ToString()</b>
                             <a class="btn btn-danger btn-sm" asp-controller="Cart" asp-action="Clear">Clear</a>
-                            @if (User.Identity?.IsAuthenticated ?? false)
+                            @if (User.Identity != null && User.Identity.IsAuthenticated && Model.CartItems.Count > 0)
                             {
                                 <a class="btn btn-success btn-sm" asp-controller="Checkout" asp-action="Checkout">Checkout</a>
                             }
+                            else
+                            {
+                                <span class="text text-success">Bạn cần đăng nhập và phải có ít nhất một sản phẩm trong giỏ hàng để thanh toán!</span>
+                            }
+
                         </td>
 
                     </tr>
