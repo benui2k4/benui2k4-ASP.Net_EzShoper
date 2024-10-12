@@ -113,11 +113,15 @@
                             </ul>
                         </div>
                     </div>
-                    @*  <div class="col-sm-3">
-                    <div class="search_box pull-right">
-                    <input type="text" placeholder="Search" />
+                    <div class="col-sm-3">
+                        <form asp-controller="Product" asp-action="Search" method="post">
+                            <div class="search_box pull-right">
+                                <input type="text" placeholder="Search"  name="searchTerm" />
+                                <button  class="btn btn-warning" type="submit">Search</button>
+                            </div>
+                        </form>
+                        
                     </div>
-                    </div> *@
                 </div>
             </div>
         </div><!--/header-bottom-->
@@ -140,9 +144,11 @@
                                 <div class="col-sm-6">
                                     <h1><span>E</span>-SHOPPER</h1>
                                     <h2>Welcome to Our Online Store!</h2>
-                                    <p>Eshopper là trang web thương mại điện tử.Các sản phẩm này chứa tất cả các sản phẩm Thương mại điện tử chuyên nghiệp,có nhiều chức năng như Trang chủ, Cửa hàng, 
+                                    <p>
+                                        Eshopper là trang web thương mại điện tử.Các sản phẩm này chứa tất cả các sản phẩm Thương mại điện tử chuyên nghiệp,có nhiều chức năng như Trang chủ, Cửa hàng,
                                         Chi tiết cửa hàng, Giỏ hàng, Thanh toán, Liên hệ, v.v. Chúng tôi sẽ tiếp tục nâng cấp thiết kế  để thu hút người dùng và nâng cao doanh số bán sản phẩm.
-                                        Nó hoàn hảo để mua sắm bất kì sản phẩm trực tuyến nào theo cách dễ dàng nhất có thể.Trang thương mại điện tử Ezshoper chính là thứ bạn đang tìm kiếm.</p>
+                                        Nó hoàn hảo để mua sắm bất kì sản phẩm trực tuyến nào theo cách dễ dàng nhất có thể.Trang thương mại điện tử Ezshoper chính là thứ bạn đang tìm kiếm.
+                                    </p>
                                     <button type="button" class="btn btn-default get">Get it now</button>
                                 </div>
                                 <div class="col-sm-6">
