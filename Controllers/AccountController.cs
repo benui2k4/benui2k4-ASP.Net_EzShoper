@@ -62,6 +62,7 @@ namespace ASP.Net_EzShoper.Controllers
                 IdentityResult result = await _userManager.CreateAsync(userModel, user.Password);
                 if (result.Succeeded)
                 {
+
                     TempData["success"] = "Đăng kí thành công !";
                     return Redirect("/account/login");
                 }

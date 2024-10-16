@@ -97,6 +97,26 @@
       "PackagePath": "staticwebassets\\images\\gallery1.jpg"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\banner-momo.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\banner-momo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\banner_laptop_1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\banner_laptop_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\banner_laptop_2.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\banner_laptop_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\banner_laptop_3.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\banner_laptop_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\banner_laptop_4.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\banner_laptop_4.jpg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\bg_border.png",
       "PackagePath": "staticwebassets\\images\\home\\bg_border.png"
     },
