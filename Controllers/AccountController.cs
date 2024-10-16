@@ -12,12 +12,14 @@ namespace ASP.Net_EzShoper.Controllers
         private UserManager<AppUserModel> _userManager;
         private SignInManager<AppUserModel> _signInManager;
         private readonly IEmailSender _emailSender;
+        private readonly RoleManager<IdentityRole> _roleManager;
 
-        public AccountController(SignInManager<AppUserModel> signInManager, UserManager<AppUserModel> userManager, IEmailSender emailSender)
+        public AccountController(SignInManager<AppUserModel> signInManager, UserManager<AppUserModel> userManager, IEmailSender emailSender, RoleManager<IdentityRole> roleManager)
         {
             _signInManager = signInManager;
             _userManager = userManager;
             _emailSender = emailSender;
+            _roleManager = roleManager;
         }
         public IActionResult Login(string returnUrl)
         {
@@ -58,22 +60,47 @@ namespace ASP.Net_EzShoper.Controllers
         {
             if (ModelState.IsValid)
             {
-                AppUserModel userModel = new AppUserModel { UserName = user.Username, Email = user.Email };
+                AppUserModel userModel = new AppUserModel
+                {
+                    UserName = user.Username,
+                    Email = user.Email,
+                    PhoneNumber = user.PhoneNumber
+                };
+
                 IdentityResult result = await _userManager.CreateAsync(userModel, user.Password);
                 if (result.Succeeded)
                 {
+                    
+                    if (!await _roleManager.RoleExistsAsync("User"))
+                    {
+                        await _roleManager.CreateAsync(new IdentityRole("User"));
+                    }
 
-                    TempData["success"] = "Đăng kí thành công !";
-                    return Redirect("/account/login");
+                    
+                    var userRole = await _userManager.AddToRoleAsync(userModel, "User");
+                    if (userRole.Succeeded)
+                    {
+                        var role = await _roleManager.FindByNameAsync("User");
+                        if (role != null)
+                        {
+                            userModel.RoleId = role.Id;
+                            await _userManager.UpdateAsync(userModel);
+                        }
+
+                        TempData["success"] = "Đăng kí thành công !";
+                        return Redirect("/account/login");
+                    }
                 }
+
                 foreach (IdentityError error in result.Errors)
                 {
                     ModelState.AddModelError("", error.Description);
                 }
-
             }
             return View(user);
         }
+
+
         public async Task<IActionResult> Logout(string returnUrl = "/")
         {
             await _signInManager.SignOutAsync();
