@@ -60,6 +60,19 @@ namespace ASP.Net_EzShoper.Controllers
         {
             if (ModelState.IsValid)
             {
+                if (await _userManager.FindByNameAsync(user.Username) != null)
+                {
+                    ModelState.AddModelError("Username", "Tên người dùng đã tồn tại.");
+                    return View(user);
+                }
+
+                
+                if (await _userManager.FindByEmailAsync(user.Email) != null)
+                {
+                    ModelState.AddModelError("Email", "Email đã tồn tại.");
+                    return View(user);
+                }
+
                 AppUserModel userModel = new AppUserModel
                 {
                     UserName = user.Username,
