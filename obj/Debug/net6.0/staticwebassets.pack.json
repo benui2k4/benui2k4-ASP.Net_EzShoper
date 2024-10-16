@@ -173,6 +173,10 @@
       "PackagePath": "staticwebassets\\images\\home\\map.png"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\momo.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\momo.jpg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\new.png",
       "PackagePath": "staticwebassets\\images\\home\\new.png"
     },
@@ -243,6 +247,10 @@
     {
       "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\shipping.jpg",
       "PackagePath": "staticwebassets\\images\\home\\shipping.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\vi-dien-tu-momo.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\vi-dien-tu-momo.jpg"
     },
     {
       "Id": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\product-details\\1.jpg",

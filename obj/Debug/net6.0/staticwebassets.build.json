@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qe0/6Oo6rEWexPnWgGQc4ei7kQkpfjT0FvA5POHd1qo=",
+  "Hash": "9C8toyeNMfwPsScy8Uk7vl7UrfdGW+PffQTkJoJNr2c=",
   "Source": "ASP.Net_EzShoper",
   "BasePath": "_content/ASP.Net_EzShoper",
   "Mode": "Default",
@@ -853,6 +853,25 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\map.png"
     },
     {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\momo.jpg",
+      "SourceId": "ASP.Net_EzShoper",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\",
+      "BasePath": "_content/ASP.Net_EzShoper",
+      "RelativePath": "images/home/momo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\home\\momo.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\new.png",
       "SourceId": "ASP.Net_EzShoper",
       "SourceType": "Discovered",
@@ -1193,6 +1212,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\home\\shipping.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\home\\vi-dien-tu-momo.jpg",
+      "SourceId": "ASP.Net_EzShoper",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\",
+      "BasePath": "_content/ASP.Net_EzShoper",
+      "RelativePath": "images/home/vi-dien-tu-momo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\home\\vi-dien-tu-momo.jpg"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\images\\product-details\\1.jpg",
