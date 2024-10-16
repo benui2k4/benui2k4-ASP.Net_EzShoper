@@ -25,37 +25,37 @@ namespace ASP.Net_EzShoper.Areas.Admin.Controllers
         {
 
 
-            const int pageSize = 10; // Số lượng sản phẩm trên mỗi trang
+            const int pageSize = 10; 
 
-            // Lấy danh sách sản phẩm và sắp xếp theo Id giảm dần
+            
             List<ProductModel> products = await _dataContext.Products
                 .OrderByDescending(p => p.Id)
                 .Include(p => p.Category)
                 .Include(p => p.Brand)
                 .ToListAsync();
 
-            // Nếu trang hiện tại nhỏ hơn 1, đặt lại thành trang 1
+            
             if (pg < 1)
             {
                 pg = 1;
             }
 
-            // Đếm tổng số sản phẩm
+            
             int recsCount = products.Count();
 
-            // Tạo đối tượng phân trang
+            
             var pager = new Paginate(recsCount, pg, pageSize);
 
-            // Số sản phẩm cần bỏ qua
+            
             int recSkip = (pg - 1) * pageSize;
 
-            // Lấy danh sách sản phẩm cho trang hiện tại
+            
             var data = products.Skip(recSkip).Take(pager.PageSize).ToList();
 
-            // Truyền đối tượng phân trang qua ViewBag
+            
             ViewBag.Pager = pager;
 
-            // Trả về danh sách sản phẩm đã phân trang
+            
             return View(data);
         }
         [HttpGet]
@@ -69,7 +69,7 @@ namespace ASP.Net_EzShoper.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(ProductModel product)
         {
-            // Luôn luôn cung cấp lại dữ liệu ViewBag trước khi kiểm tra ModelState
+            
             ViewBag.Categories = new SelectList(_dataContext.Categories, "Id", "Name", product.CategoryId);
             ViewBag.Brands = new SelectList(_dataContext.Brands, "Id", "Name", product.BrandId);
 
@@ -209,22 +209,3 @@ namespace ASP.Net_EzShoper.Areas.Admin.Controllers
     }
 }
 
-//if (ModelState.IsValid)
-//{
-
-//         }
-//else
-//{
-//	TempData["error"] = "Lỗi thêm mới sản phẩm !";
-//	List<string> errors = new List<string>();
-//	foreach (var value in ModelState.Values)
-//	{
-//		foreach (var error in value.Errors) 
-//		{
-//			errors.Add(error.ErrorMessage);
-//		}
-//	}
-//string ErrorMessage = string.Join("\n");
-//	return BadRequest(ErrorMessage);
-//}
-//         return View(product);

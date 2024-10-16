@@ -21,6 +21,7 @@ namespace ASP.Net_EzShoper.Controllers
         {
             if(Id == null ) return RedirectToAction("Index");
             var productsById = _dataContext.Products.Where(p=>p.Id == Id ).FirstOrDefault();
+            
             return View(productsById);
         }
 
