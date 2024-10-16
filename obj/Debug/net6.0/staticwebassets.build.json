@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Smtwi1T+zPYPRELe8Jo9+BTfubNRiX+v1QS1IbukLq0=",
+  "Hash": "qe0/6Oo6rEWexPnWgGQc4ei7kQkpfjT0FvA5POHd1qo=",
   "Source": "ASP.Net_EzShoper",
   "BasePath": "_content/ASP.Net_EzShoper",
   "Mode": "Default",
@@ -2922,6 +2922,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\media\\products\\6d4a3569-f85d-459e-843c-b038f40883e5_hp-aio-proone-240-g10-i5-9h0b2pt-thumb-600x600.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\a7a4b673-246c-4404-8e2a-7a26dde00a58_tai-nghe-jbl-quantum-910-1.jpg",
+      "SourceId": "ASP.Net_EzShoper",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\",
+      "BasePath": "_content/ASP.Net_EzShoper",
+      "RelativePath": "media/products/a7a4b673-246c-4404-8e2a-7a26dde00a58_tai-nghe-jbl-quantum-910-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\a7a4b673-246c-4404-8e2a-7a26dde00a58_tai-nghe-jbl-quantum-910-1.jpg"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\ASP.Net_EzShoper\\ASP.Net_EzShoper\\wwwroot\\media\\products\\bcecde24-e91a-48c3-8dd1-10017fdf6102_asus-s500te-i5-13500-s500te-513500014w-thumb-600x600.jpg",

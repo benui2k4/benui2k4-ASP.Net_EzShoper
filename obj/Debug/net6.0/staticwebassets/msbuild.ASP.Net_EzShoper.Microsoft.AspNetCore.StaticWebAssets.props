@@ -2432,6 +2432,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\products\6d4a3569-f85d-459e-843c-b038f40883e5_hp-aio-proone-240-g10-i5-9h0b2pt-thumb-600x600.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\products\a7a4b673-246c-4404-8e2a-7a26dde00a58_tai-nghe-jbl-quantum-910-1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ASP.Net_EzShoper</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ASP.Net_EzShoper</BasePath>
+      <RelativePath>media/products/a7a4b673-246c-4404-8e2a-7a26dde00a58_tai-nghe-jbl-quantum-910-1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\products\a7a4b673-246c-4404-8e2a-7a26dde00a58_tai-nghe-jbl-quantum-910-1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\products\bcecde24-e91a-48c3-8dd1-10017fdf6102_asus-s500te-i5-13500-s500te-513500014w-thumb-600x600.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>ASP.Net_EzShoper</SourceId>
