@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ASP.Net_EzShoper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08dc0244e888e560d160f8f767699c86a219bc5c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf9f5d49a7b0df86592487c7439fa18060273e07")]
 [assembly: System.Reflection.AssemblyProductAttribute("ASP.Net_EzShoper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ASP.Net_EzShoper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
