@@ -30,7 +30,8 @@
         <div class="category-tab shop-details-tab">
             <div class="col-sm-12">
                 <ul class="nav nav-tabs">
-                    <li><a class="active" href="#reviews" data-toggle="tab">Reviews</a></li>
+                    <li><a class="active" href="#reviews" data-toggle="tab">Details</a></li>
+                    <li><a href="#comments" data-toggle="tab">Comments</a></li>
                 </ul>
             </div>
             <div class="tab-content">
@@ -47,9 +48,31 @@
                         </form>
                     </div>
                 </div>
+                <div class="tab-pane fade in" id="comments">
+                    <div class="col-sm-12">
+                        <form action="#">
+                            <span class="input-container">
+                                <input type="text" placeholder="Your Name" class="review-input" />
+                                <input type="email" placeholder="Email Address" class="review-input" />
+                            </span>
+                            <textarea name="" placeholder="Write your review here..." class="review-textarea"></textarea>
+                            <div class="rating">
+                                <span class="star" data-value="1">&#9733;</span>
+                                <span class="star" data-value="2">&#9733;</span>
+                                <span class="star" data-value="3">&#9733;</span>
+                                <span class="star" data-value="4">&#9733;</span>
+                                <span class="star" data-value="5">&#9733;</span>
+                            </div>
+                            <p class="rating-value">Bạn đã chọn: <span id="selected-rating">0</span> sao</p>
+                            <button type="button" class="btn btn-success pull-right">Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+
             </div>
         </div>
-
+        
         <div class="recommended_items">
             <h2 class="title text-center">Recommended Product</h2>
 
@@ -95,3 +118,88 @@
         </div>
     </div>
 </div>
+
+<style>
+    .input-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px; 
+    }
+
+    .review-input {
+        width: 48%; 
+        padding: 10px;
+        border: 1px solid #ddd; 
+        border-radius: 5px; 
+        font-size: 16px; 
+        transition: border-color 0.2s, box-shadow 0.2s; 
+        background-color: #f9f9f9; 
+    }
+
+        .review-input:focus {
+            border-color: #FE980F; 
+            outline: none; 
+            box-shadow: 0 0 5px rgba(254, 152, 15, 0.5); 
+        }
+
+    .review-textarea {
+        width: 100%; 
+        height: 100px; 
+        padding: 10px;
+        border: 1px solid #ddd; 
+        border-radius: 5px;
+        font-size: 16px; 
+        margin-bottom: 15px; 
+        resize: none; 
+        transition: border-color 0.2s, box-shadow 0.2s;
+        background-color: #f9f9f9;
+    }
+
+        .review-textarea:focus {
+            border-color: #FE980F; 
+            outline: none; 
+            box-shadow: 0 0 5px rgba(254, 152, 15, 0.5); 
+        }
+
+    .rating {
+        margin-bottom: 15px; 
+        font-size: 100px;
+    }
+
+    .star {
+        color: gray; 
+        cursor: pointer; 
+        transition: color 0.2s;
+    }
+
+        .star.selected {
+            color: gold; 
+        }
+
+</style>
+
+<script>
+    const stars = document.querySelectorAll('.star');
+    const selectedRatingDisplay = document.getElementById('selected-rating');
+
+    stars.forEach(star => {
+        star.addEventListener('click', () => {
+            // Lấy giá trị của sao đã chọn
+            const rating = star.getAttribute('data-value');
+
+            // Xóa lớp "selected" khỏi tất cả các sao
+            stars.forEach(s => {
+                s.classList.remove('selected');
+                // Thêm lớp "selected" cho sao đã chọn và tất cả các sao trước đó
+                if (s.getAttribute('data-value') <= rating) {
+                    s.classList.add('selected');
+                }
+            });
+
+            // Cập nhật giá trị đánh giá
+            selectedRatingDisplay.innerText = rating;
+        });
+    });
+
+
+</script>
