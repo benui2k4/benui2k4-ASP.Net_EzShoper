@@ -34,6 +34,7 @@ namespace ASP.Net_EzShoper.Models
 
         
         public CategoryModel Category { get; set; }
+        public RatingModel Rating { get; set; }
         
         public BrandModel Brand { get; set; }
 
